@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  
+  <h1 class="heading">Simple Todo list</h1>
+  
+  <div class="todo-adder">
+    
+    <input type="text" placeholder="Add Your Todo" class="get-array-js todoname">
+    
+  </div>
+  
+  <div class="date-time-btn-input">
+    
+    <p class="titles">Date</p>
+    <p class="titles">Time</p>
+    <p></p>
+    
+    
+    <input type="date" class="js-get-date date-input">
+    <input type="time" class="js-get-time time-input">
+    
+    <button onclick="
+    addArray();
+    " class="add-btn"> <img src="/images/add.png" alt="add_image" class="add-image">Add</button>
+
+  </div>
+  
+  <h2>Your Todo(s)</h2>
+  
+  <div class="todo-container">
+    
+    <div class="for-titles">
+      
+      <p>Todo Name</p>
+      <p>Date</p>
+      <p>Time</p>
+      <p>Action</p>
+      
+    </div>
+    
+    <div class="js-todo-list todolist-sec">
+    </div>
+  </div>
+
+<div class="ad-container">
+  <p class="ad">Made by <span class="manto999"> MANTO999</span></p>
+</div>
+  
+<script src="/main.js"></script>
+</body>
+</html>

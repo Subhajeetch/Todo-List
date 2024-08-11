@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); /* font */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  font-family: "Varela Round", sans-serif;
+  height: 100vh;
+  background-color: #A38A8A;
+  padding: 40px 20px 20px 20px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #0C0C0C;
+  text-decoration: underline;
+}
+
+.todo-adder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.todoname {
+  flex: 1;
+  max-width: 400px;
+  
+  outline: none;
+  height: 46px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 12px 0 12px;
+  border-radius: 18px;
+  border: none;
+  margin-bottom: 16px;
+}
+
+.date-time-btn-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  display: grid;
+  grid-template-columns: 84px 84px 70px;
+  column-gap: 30px;
+}
+
+.titles {
+  text-align: center;
+  font-weight: 550;
+  color: #000000;
+}
+
+.date-input,
+.time-input {
+  width: 84px;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 0 8px 0 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #EAEAEA;
+}
+
+.add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 70px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  color: #0C0C0C;
+  cursor: pointer;
+}
+
+.add-image {
+  height: 26px;
+  filter: grayscale(100%) brightness(20%);
+}
+
+h2 {
+  margin: 30px 0 40px 0;
+  text-align: center;
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+
+/* css for genarated html */
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.for-titles {
+  display: grid;
+  grid-template-columns: 180px 117px 73px 42px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.todolist-sec {
+  display: grid;
+  grid-template-columns: 150px 90px 50px 42px;
+  
+  column-gap: 30px;
+  row-gap: 16px;
+}
+
+.delete-png {
+  height: 30px;
+  filter: grayscale(100%) brightness(20%);
+}
+
+.delete-btn {
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: #D4D4D4;
+  border-radius: 10px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.delete-btn:hover, .add-btn:hover {
+  background-color: #A9A9A9;
+}
+
+
+
+.todo-info {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  border-bottom: 2px solid #545454;
+}
+
+
+
+
+/* finished Todo list */
+
+
+.ad-container {
+  display: flex;
+  justify-content: center;
+}
+
+.ad {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  font-size: 10px;
+  
+}
+
+.manto999 {
+  font-weight: 600;
+  margin-left: 2px;
+}
