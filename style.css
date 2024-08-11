@@ -90,6 +90,7 @@ h1 {
 .add-image {
   height: 26px;
   filter: grayscale(100%) brightness(20%);
+  margin-right: 4px;
 }
 
 h2 {

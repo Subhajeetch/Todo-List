@@ -28,7 +28,7 @@ function showTodoList() {
       <button onclick="
         myTodoList.splice(${i}, 1);
         showTodoList();
-      " class="delete-btn"><img src="/images/delete.png" alt="delete" class="delete-png"></button> 
+      " class="delete-btn"><img src="https://i.postimg.cc/NMFRVNBY/delete-24dp-E8-EAED-FILL0-wght400-GRAD0-opsz24.png" alt="delete" class="delete-png"></button> 
     `;
     
     todoListHtml += html;
